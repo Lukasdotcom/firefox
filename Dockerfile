@@ -8,6 +8,7 @@ RUN apt install -y firefox
 RUN apt install -y expect
 RUN apt install -y python3
 RUN apt install -y git
+RUN apt install -y python3-numpy
 WORKDIR "/root"
 RUN git clone https://github.com/novnc/noVNC.git
 #RUN apt -y install sudo
